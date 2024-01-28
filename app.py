@@ -15,7 +15,7 @@ def apply_filter():
     input_data = request.form.get('input_data')
 
     # Run your apply_filter.py script using subprocess
-    subprocess.run(['python3', 'apply_filter.py', input_data])
+    subprocess.run(['python3', 'apply_filter.py', "none"])
 
     # Return a response as needed
     return "Filter applied successfully!"
